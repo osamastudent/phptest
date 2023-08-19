@@ -1,0 +1,22 @@
+
+    .container{
+        height:auto;
+        width:auto;
+        }
+    .container .box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit ,16rem);   
+    }
+
+    .container .box-container .main{
+        height: auto;
+        width: 200px;
+        border: solid 0px;
+    border-radius: 5px;
+        background-color: white;
+        box-shadow: 10px  10px 8px #8888;
+        margin-bottom:40px;
+    margin-left: 40px;
+    text-align:center;
+    
+    }
